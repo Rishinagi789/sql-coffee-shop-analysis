@@ -29,6 +29,17 @@ Queries
 14. Customer Purchase Dates: Finds the first and last purchase dates for each customer (based on card in index_1).
 15. Top 5 Popular Coffees: Lists the top 5 coffee types by purchase frequency.
 
+Insights 
+
+    The queries in kaggle.sql are designed to uncover the following insights about the coffee shop's sales:
+1. Popular Products: Queries 2, 8, 11, and 15 identify the most frequently purchased and highest revenue-generating coffee types, helping to understand customer preferences and top-selling products.
+2. Revenue Trends: Queries 5, 10, and 11 provide insights into total revenue, daily sales patterns, and the contribution of specific coffee types to overall revenue.
+3. Payment Preferences: Query 12 reveals the distribution of payment methods (e.g., cash vs. card), which can inform decisions about payment processing or promotions.
+4. High-Value Transactions: Queries 4 and 9 highlight expensive transactions, useful for identifying premium products or outliers in spending behavior.
+5. Customer Behavior: Query 14 tracks the first and last purchase dates for customers, enabling analysis of customer retention and purchase frequency.
+6. Spending Patterns: Queries 7 and 13 provide the average transaction value overall and per coffee type, offering insights into pricing strategies and customer spending habits.
+7. Sales on Specific Dates: Query 3 allows analysis of sales on a particular date (e.g., March 1, 2024), useful for studying seasonal or promotional impacts.
+
 Notes
 1. The script uses UNION and UNION ALL to combine data from index_1 and index_2. Ensure column names and data types are consistent across both tables.
 2. Some queries rename cash_type to cash_mode for consistency (e.g., Query 12).
